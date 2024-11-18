@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "poetry-demo"
+name = "project-scraper"
 version = "0.1.0"
 description = ""
-authors = ["melany estevez camata <bilany@gmail.com>"]
+authors = ["melanylibia <elibialany@gmail.com>"]
 readme = "README.md"
+packages = [{include = "project_scraper"}]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 scrapy = "^2.12.0"
 
 
