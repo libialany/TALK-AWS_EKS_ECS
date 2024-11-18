@@ -15,3 +15,6 @@ Create a scraper that collects free or paid resources for language learners, inc
 
 This tool will be useful for anyone looking to learn a new language or improve their language skills.
 
+## Links
+
+[schedule](https://stackoverflow.com/questions/44228851/scrapy-on-a-schedule)

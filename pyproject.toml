@@ -9,6 +9,7 @@ packages = [{include = "project_scraper"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 scrapy = "^2.12.0"
+twisted = "^24.10.0"
 
 
 [build-system]

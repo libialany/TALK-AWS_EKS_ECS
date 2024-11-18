@@ -5,7 +5,8 @@ import scrapy
 
 class QuotesSpider(scrapy.Spider):
     name = "news"
-
+    custom_settings = {'FEEDS': { 'data.jsonl': { 'format': 'jsonlines'}}}
+    
     def start_requests(self):
         urls = [
             "https://quotes.toscrape.com/page/1/",
