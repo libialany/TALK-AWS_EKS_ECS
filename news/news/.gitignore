@@ -12,3 +12,6 @@ build/
 venv/
 env/
 .env/
+
+# data
+data/*

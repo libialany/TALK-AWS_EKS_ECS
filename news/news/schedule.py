@@ -12,7 +12,7 @@ def run_crawl():
         })
     deferred = runner.crawl(QuotesSpider)
     # you can use reactor.callLater or task.deferLater to schedule a function
-    deferred.addCallback(reactor.callLater, 5, run_crawl)
+    deferred.addCallback(reactor.callLater, 1, run_crawl)
     return deferred
 
 run_crawl()
