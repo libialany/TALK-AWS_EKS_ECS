@@ -10,7 +10,8 @@ Before you begin, ensure you have the following installed on your machine:
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-
+- Storage min. 100MB
+- Existing Domain in my case mlibia.xyz
 ## Overview
 
 In this workshop, we will:
@@ -43,7 +44,7 @@ Use Docker Compose to build and start the services:
 
 ### Step 5: Access Your Application
 
-Once the services are running, you can access your application at `http://localhost:8080`.
+Once the services are running, you can setup your application first setup the cloudflare dns i create a domain `wikixlocal.mlibia.xyz`.
 
 ## Troubleshooting
 
