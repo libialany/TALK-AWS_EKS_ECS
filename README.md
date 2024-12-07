@@ -1,6 +1,8 @@
 # Friendly server
 
-Welcome to the workshop! In this session, we will guide you through setting up a development environment using Docker Compose to manage `dnsmasq`, `nginx`, and your application.
+Welcome to the workshop! In this session, we will guide you through setting up a development environment using Docker Compose to manage `cloudflare`, `nginx`, and your application.
+
+![image](https://github.com/user-attachments/assets/efcb7460-b0b4-40ae-9d78-26c59bb3443d)
 
 ## Prerequisites
 
@@ -13,9 +15,9 @@ Before you begin, ensure you have the following installed on your machine:
 
 In this workshop, we will:
 
-1. Set up `dnsmasq` for DNS management.
+1. Set up `cloudflare` for DNS management.
 2. Configure `nginx` as a reverse proxy.
-3. Deploy your application using Docker Compose.
+3. Deploy your wiki server using docker.
 
 ## Getting Started
 
@@ -28,7 +30,6 @@ First, clone the repository containing the Docker Compose configuration:
 ### Step 2: Review the Docker Compose File
 
 Open the `docker-compose.yml` file to understand the services being set up.
-
 
 ### Step 3: Configure `nginx`
 
