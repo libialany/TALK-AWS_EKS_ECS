@@ -1,0 +1,17 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"              # Expose Nginx's port 80 to host (this is where Nginx will listen)
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf  # Mount your Nginx config file
+
+  kiwix-serve:
+    image: ghcr.io/kiwix/kiwix-serve
+    volumes:
+      - ./kiwix:/data
+    ports:
+      - '8080:8080'
+    command: '*.zim'
+    restart: always
