@@ -8,9 +8,11 @@ services:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf  # Mount your Nginx config file
 
   kiwix-serve:
-    image: ghcr.io/kiwix/kiwix-serve
-    volumes:
-      - ./kiwix:/data
+    image: kiwix/kiwix-serve
+    container_name: kiwix
     ports:
-      - '8080:8080'
-    command: '*.zim'
+      - 8080:8080
+    volumes:
+      - /srv/kiwix/data:/data
+    command: "*.zim"
+    restart: unless-stopped
