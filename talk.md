@@ -1,84 +1,77 @@
-
-
-Server Sharing Educative Web content
+Compartir servidor Contenido web educativo
 ===
-sharing without internet
 
-1. Local Storage and Offline Caching
+### Compartiendo sin internet
 
-Web apps can use local storage, IndexedDB, or Service Workers (a feature of progressive web apps or PWAs) to cache web content locally.
-This allows apps or websites to offer a seamless experience even in the absence of an internet connection.
+---
 
-A news app can cache ??
+### Bluetooth
 
-2. Bluetooth
-Bluetooth allows nearby devices to communicate wirelessly over short distances. Apps can transfer files, text, or other content to another device using Bluetooth, without needing an internet connection.
+Las aplicaciones pueden transferir archivos, texto u otro contenido a otro dispositivo mediante Bluetooth, sin necesidad de una conexión a Internet.
 
-3. Wi-Fi Direct
-Wi-Fi Direct enables devices to connect to each other directly via Wi-Fi, without needing a router or internet connection. It is a peer-to-peer connection method.
-This technology can be used for transferring files, sharing content, or even playing multiplayer games.
+---
 
-4. Near-Field Communication (NFC)
-NFC is a short-range wireless communication technology that allows devices to exchange data when they are brought within close proximity (usually a few centimeters).
-NFC can be used to share links, contact information, or small pieces of content between devices without an internet connection.
+### Wi-Fi Direct
 
-5. Ad-Hoc Networking
-Some apps use ad-hoc networks to establish direct communication between devices.
-Apps like AirDrop on Apple devices or Nearby Share on Android devices use this approach for sharing content such as photos, links, and files between devices.
+Wi-Fi Direct permite que los dispositivos se conecten entre sí directamente a través de Wi-Fi Es un método de conexión peer-to-peer.
 
-6. Mesh Networks (for Larger Groups)
-In certain scenarios, such as festivals or large events, devices may form a mesh network where they communicate with each other directly (without requiring internet) to share content.
+[Wi-Fi Direct](https://forums.raspberrypi.com/viewtopic.php?t=31596)
+
+---
+
+### Almacenamiento local y almacenamiento en caché 
+
+Sin conexión Las aplicaciones web pueden usar almacenamiento local como ser Service Workers (una característica de las aplicaciones web progresivas) para almacenar en caché el contenido web localmente. 
+
+Veamos ejemplos...
 
 ---
 
 ### Wayback Machine & Google Website Cache Go Offline
 
-Information has a price as much as water, gas and
-electricity does. As Floridi notes, “[n]obody pays for yesterday’s newspaper or the wrong kind of
-information… Information has economic value because of its usefulness” (2010, p.90). But is
-information a resource that is managed in the same way as, say, gas or water?
-
+Nadie paga por el periódico de ayer o por la información equivocada...
+[News](https://lifehacker.com/tech/google-wont-let-you-check-cached-pages-anymore-heres-how-to-do-it-anyway)
 
 ---
 
-[resumen](https://bpb-eu-w2.wpmucdn.com/blogs.city.ac.uk/dist/3/809/files/2015/03/Internet-Archiving-The-Wayback-Machine-v0rykw.pdf)
-[paper](https://rp.os3.nl/2012-2013/p18/report.pdf)
+### Métodos de recolección 
+
+Son transferencia directa, recolección remota, archivo de bases de datos y archivo transaccional. Recolección remota de Internet Archive. La recolección remota se lleva a cabo a través de rastreadores web: 'robots' o 'arañas'. 
 
 ---
 
-PSA— snapshot your websites 📸
+### Archive Internet 
 
-[](https://www.youtube.com/watch?v=9BmVFWvdfnQ)
+El software de rastreo web Heritrix, que fue creado específicamente por Internet Archive con instituciones asociadas. Ahora los rastreos en toda la red sean prácticamente imposibles.
 
----
-
-## How Do Website Snapshots Work?
-
-[principle of website snapshots](https://medium.com/@xingziyi/capturing-website-snapshots-via-residential-proxies-technical-analysis-and-future-prospects-cbdde1060526)
-[Python - Website scrapping and data snapshot - Google Search Automation](https://www.youtube.com/watch?v=JirAYf7qqzA)
+[Methodos de coleccion](https://bpb-eu-w2.wpmucdn.com/blogs.city.ac.uk/dist/3/809/files/2015/03/Internet-Archiving-The-Wayback-Machine-v0rykw.pdf)
 
 ---
 
-## Education
- - ...
+### Instantánea de tus sitios web 📸 
 
-----
-
-## Lectura interesante && Lector offline
+- [Python - Snapshots de sitios](https://www.youtube.com/watch?v=JirAYf7qqzA)
 
 ---
 
-## Kiwix Gestor de contenido
+### Como los snapshot de sitios funcionan
+
+- [principle of website snapshots](https://medium.com/@xingziyi/capturing-website-snapshots-via-residential-proxies-technical-analysis-and-future-prospects-cbdde1060526)
 
 ---
-[set up your kiwix](https://ounapuu.ee/posts/2021/12/09/self-hosting-wikipedia/)
+
+### Lectura
+
+- La concentración en la lectura **online**, así como el tiempo que se invierte en un texto largo, parece menor que en la lectura **offline**.
 
 ---
 
-## server offline
-[Docker](https://medium.com/@boiser/set-up-a-kiwix-server-for-your-own-offline-internet-49bc2178bd6)
+### Kiwix Gestor de contenido 
+
+[Configurar tu kiwix](https://ounapuu.ee/posts/2021/12/09/self-hosting-wikipedia/)
 
 ---
+
 ### library kiwix
 
 [kiwix](https://library.kiwix.org/#lang=)
@@ -86,12 +79,21 @@ PSA— snapshot your websites 📸
 ---
 
 ### ZIM file
+
 [ZIM file](https://wiki.openzim.org/wiki/Build_your_ZIM_file)
 
 ---
 
-## Key Notes
+### Ultimo mensaje
 
+- Centrate en soluciones en lugar de problemas 
+
+---
+
+### Some resources
+
+- [DNS](https://jackwhitworth.com/blog/dnsmasq-domain-resolution-with-docker-compose/)
+- [kiwi]
 
 
 
