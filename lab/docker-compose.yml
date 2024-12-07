@@ -7,11 +7,10 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf  # Mount your Nginx config file
 
-  # kiwix-server:
-  #   image: jasiek/kiwix-server
-  #   container_name: kiwix-server
-  #   ports:
-  #     - "8080:8080"         # Expose port 8080
-  #   volumes:
-  #     - /tmp/wiki:/kiwix-data  # Mount the local directory to the container
-  #   command: wikipedia.zim       # Run the 'wikipedia.zim' file inside the container
+  kiwix-serve:
+    image: ghcr.io/kiwix/kiwix-serve
+    volumes:
+      - ./kiwix:/data
+    ports:
+      - '8080:8080'
+    command: '*.zim'
