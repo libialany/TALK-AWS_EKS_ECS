@@ -30,22 +30,17 @@ First, clone the repository containing the Docker Compose configuration:
 Open the `docker-compose.yml` file to understand the services being set up.
 
 
-### Step 3: Configure `dnsmasq`
-
-Edit the `dnsmasq.conf` file to set up your DNS settings. This file is mounted into the `dnsmasq` container.
-
-### Step 4: Configure `nginx`
+### Step 3: Configure `nginx`
 
 Edit the `nginx.conf` file to set up your reverse proxy settings. This file is mounted into the `nginx` container.
 
-### Step 5: Build and Run the Containers
+### Step 4: Build and Run the Containers
 
 Use Docker Compose to build and start the services:
 
 `docker-compose up --build`
 
-
-### Step 6: Access Your Application
+### Step 5: Access Your Application
 
 Once the services are running, you can access your application at `http://localhost:8080`.
 
