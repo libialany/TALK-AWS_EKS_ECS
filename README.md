@@ -1,6 +1,6 @@
 # Friendly server
 
-Welcome to the workshop! In this session, we will guide you through setting up a development environment using Docker Compose to manage `cloudflare`, `nginx`, and your application.
+Welcome to the workshop! In this session, we will guide you through setting up a kiwix server using Docker Compose to manage `nginx`, and your application.
 
 ![image](https://github.com/user-attachments/assets/efcb7460-b0b4-40ae-9d78-26c59bb3443d)
 
@@ -53,7 +53,7 @@ Once the services are running, you can setup your application first setup the cl
 
 ## Conclusion
 
-By the end of this workshop, you should have a working setup of `dnsmasq`, `nginx`, and your application using Docker Compose. Feel free to experiment with the configurations to suit your needs.
+By the end of this workshop, you should have a working setup of `cloudflare`, `nginx`, and your application using Docker Compose. Feel free to experiment with the configurations to suit your needs.
 
 ## Resources
 
