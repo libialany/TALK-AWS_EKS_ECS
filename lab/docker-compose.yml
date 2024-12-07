@@ -6,10 +6,7 @@ services:
       - "80:80"              # Expose Nginx's port 80 to host (this is where Nginx will listen)
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf  # Mount your Nginx config file
-    networks:
-      default:
-        # Static IP here so dnsmasq can point to Nginx easily
-        ipv4_address: 172.16.1.2    
+
   kiwix-server:
     image: jasiek/kiwix-server
     container_name: kiwix-server
@@ -18,24 +15,3 @@ services:
     volumes:
       - /tmp/wiki:/kiwix-data  # Mount the local directory to the container
     command: wikipedia.zim       # Run the 'wikipedia.zim' file inside the container
-    # restart: unless-stopped 
-
-  dnsmasq:
-    container_name: dnsmasq
-    image: strm/dnsmasq
-    volumes:
-      - ./dnsmasq.conf:/etc/dnsmasq.conf
-    ports:
-      - 53:53/udp
-    cap_add:
-      - NET_ADMIN
-    networks:
-      default:
-        ipv4_address: 172.16.1.1
-
-networks:
-  default:
-    ipam:
-      config:
-        - subnet:   172.16.0.0/23
-          ip_range: 172.16.0.0/24
