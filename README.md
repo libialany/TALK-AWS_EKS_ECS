@@ -44,7 +44,7 @@ Use Docker Compose to build and start the services:
 
 ### Step 5: Access Your Application
 
-Once the services are running, you can setup your application first setup the cloudflare dns i create a domain `wikixlocal.mlibia.xyz`.
+Once the services are running, you can setup your application first setup the cloudflare dns i create a domain `kiwixlocal.mlibia.xyz`.
 
 ## Troubleshooting
 
