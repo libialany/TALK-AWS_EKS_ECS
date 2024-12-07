@@ -1,4 +1,4 @@
-# Workshop: Setting Up `dnsmasq`, `nginx`, and Your App with Docker Compose
+# Friendly server
 
 Welcome to the workshop! In this session, we will guide you through setting up a development environment using Docker Compose to manage `dnsmasq`, `nginx`, and your application.
 
