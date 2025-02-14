@@ -249,8 +249,5 @@ Congratulations! :tada: You've created an ECS "Fargate" cluster, created a load 
 
 Next, choose amongst these labs:
 
-* [Deploying Containers to Elastic Container Service (ECS) "Fargate"](../lab-03/README.md)
-* [Deploying Containers to a Kubernetes Cluster](../lab-04/README.md)
-* [Using AWS Lambda for Serverless Application Patterns](../lab-05/README.md)
+* [Deploying Containers to a Kubernetes Cluster](../lab-02/README.md)
 
-Or view the [suggested next steps](../../../../README.md#next-steps) after completing all labs.

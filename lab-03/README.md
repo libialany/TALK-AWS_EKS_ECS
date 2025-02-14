@@ -3,7 +3,7 @@
 In this lab, you will deploy a containerized application to a Kubernetes cluster.
 
 > This lab assumes you have a project set up and a Kubernetes cluster up and running.
-> If you don't have a cluster yet, please [complete this lab first](../lab-04/README.md).
+> If you don't have a cluster yet, please [complete this lab first](../lab-02/README.md).
 
 ## Step 1 &mdash; Use a Kubernetes Cluster
 
@@ -355,6 +355,4 @@ pulumi stack rm
 
 ## Next Steps
 
-Congratulations! :tada: You've deployed a Kubernetes application to an existing EKS cluster, scaled it out, and performed a rolling update of the container image it is running.
-
-Next, view the [suggested next steps](../../../../README.md#next-steps) after completing all labs.
+Congratulations! 
