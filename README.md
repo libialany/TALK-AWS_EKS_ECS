@@ -10,3 +10,5 @@
 - ECS IaC - lab1
 
 ### Link Video:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Rb3FcRI0t_k/0.jpg)](https://www.youtube.com/watch?v=Rb3FcRI0t_k)
